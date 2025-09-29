@@ -1,6 +1,5 @@
 import { HeaderNavigation } from './HeaderNavigation';
 
-// Datos de prueba
 const CUSTOM_LINKS = ['Products', 'About Us', 'Contact'];
 
 export default {
@@ -8,7 +7,7 @@ export default {
   component: HeaderNavigation,
   tags: ['autodocs'],
   parameters: {
-    layout: 'fullscreen', // Usamos fullscreen para ver la barra completa
+    layout: 'fullscreen',
   },
 };
 

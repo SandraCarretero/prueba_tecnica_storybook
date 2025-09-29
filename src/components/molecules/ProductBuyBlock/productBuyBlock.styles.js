@@ -4,13 +4,13 @@ import { COLORS, SPACING } from '../../../stytles/design-tokens';
 export const BlockContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: ${SPACING.xl}; /* Espacio grande para separar secciones */
+  gap: ${SPACING.xl}; 
   width: 100%;
   max-width: 384px;
   position: sticky;
-  top: 20px; /* Distancia desde la parte superior cuando se vuelve sticky */
-  align-self: flex-start; /* Asegura que se mantenga en su posición */
-  z-index: 10; /* Asegura que esté por encima de otros elementos */
+  top: 20px; 
+  align-self: flex-start; 
+  z-index: 10; 
 `;
 
 export const InfoContainer = styled.div`
@@ -55,11 +55,10 @@ export const StyledColumn = styled.div`
 export const ContactLinkContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px; /* Espacio entre el icono y el texto */
-  padding-top: 16px; /* Separación de los elementos de arriba */
-  text-decoration: none; /* Asegura que no tenga el subrayado por defecto de <a> */
+  gap: 8px; 
+  padding-top: 16px; 
+  text-decoration: none;
 
-  /* Puedes añadir estilos al pasar el ratón para una mejor UX */
   &:hover {
     opacity: 0.85;
     text-decoration: none;

@@ -1,7 +1,6 @@
 import { Image } from './Image';
 
-const IMAGE_URL = 'https://picsum.photos/600/600'; // URL de imagen de prueba
-
+const IMAGE_URL = 'https://picsum.photos/600/600';
 export default {
   title: 'Atoms/Image',
   component: Image,

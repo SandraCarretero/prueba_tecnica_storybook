@@ -18,7 +18,7 @@ export const StyledProductGallery = styled.div`
     border: none;
     cursor: pointer;
     padding: ${SPACING.sm};
-    z-index: 10; /* Estilos del texto de la flecha */
+    z-index: 10;
     & span {
       font-size: ${COLORS.gray_400};
       font-weight: 600;
@@ -28,13 +28,12 @@ export const StyledProductGallery = styled.div`
 
 export const PaginationDotsContainer = styled.div`
   display: flex;
-  justify-content: center; /* Centrar horizontalmente los puntos */
+  justify-content: center; 
   gap: ${SPACING.xs};
   padding: ${SPACING.xs} 0;
-  margin-top: ${SPACING.sm}; /* Espacio entre la imagen y los puntos */
+  margin-top: ${SPACING.sm};
 `;
 
-// Estilo del indicador individual (el punto)
 export const PaginationIndicator = styled.button`
   width: 8px;
   height: 8px;

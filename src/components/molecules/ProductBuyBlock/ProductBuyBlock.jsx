@@ -21,10 +21,9 @@ export const ProductBuyBlock = ({ initialColor, initialSize, price }) => {
   const [variant, setVariant] = useState({
     size: initialSize,
     color: initialColor,
-    currentPrice: price // Inicializamos con el precio base/por defecto
+    currentPrice: price 
   });
 
-  // 💡 2. Función de callback para actualizar el estado
   const handleVariantChange = ({ size, color, price }) => {
     setVariant({
       size,
@@ -83,12 +82,11 @@ export const ProductBuyBlock = ({ initialColor, initialSize, price }) => {
         </StyledPriceProduct>
         <Button
           variant="primary"
-          size="large" // Usamos el tamaño grande para que sea prominente
-          style={{ flexGrow: 1 }} // Ocupa el espacio restante
+          size="large" 
+          style={{ flexGrow: 1 }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <span>Next</span>
-            {/* Ajusta el tamaño (size) y el color del icono si es necesario */}
             <FaChevronRight size={8} />
           </div>
         </Button>

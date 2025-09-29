@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Image } from '../../atoms/Image/Image';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'; 
-import { Typography } from '../../atoms/Typography/Typography';
 
 import {
   StyledProductGallery,
